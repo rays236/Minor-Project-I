@@ -1,2 +1,2 @@
 # Minor-Project-I
-A Student Relation Management System which is a specialist CRM that is designed for the education industry.
+Download signup folder into your htdocs, import assignmentDB.sql, then go to localhost/signup/signup.html through your browser.
