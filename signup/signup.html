@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+
+</head>
+<body>
+<div class="signup">
+    <fieldset>
+        <legend>Signup Form</legend>
+        <form action="signup.php" method = 'post' onsubmit="return validate(this)">
+    
+            <label>Firstname<input type="text" name="firstname" maxlength="32" placeholder="Ram"></label>
+            
+    
+            <label for="Surname">Surname</label>
+            <input type="text" name="Surname" id="Surname" maxlength="32" placeholder="Thapa"><br><br>
+    
+            <label for="Username">Username</label>
+            <input type="text" name = "Username" maxlength="16"><br><br>
+    
+            <label for="password">Password</label>
+            <input type="password" name="password" max="12"><br><br>
+            
+            <label for="email">Email Address</label>
+            <input type="email" name="email" maxlength="64"><br><br>
+    
+            <input type="submit" value="Signup" id="button">
+        </form>
+    </fieldset>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
